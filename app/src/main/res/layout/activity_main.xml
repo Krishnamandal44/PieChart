@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/mainLayout"
     tools:context="com.example.krishna.piechart.MainActivity">
     <com.github.mikephil.charting.charts.PieChart
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:id="@+id/chart">
     </com.github.mikephil.charting.charts.PieChart>
 
